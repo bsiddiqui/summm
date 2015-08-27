@@ -21,5 +21,7 @@
     "url": "https://github.com/bsiddiqui/summm/issues"
   },
   "homepage": "https://github.com/bsiddiqui/summm#readme",
-  "dependencies": {}
+  "dependencies": {
+    "is-numeric": "0.0.3"
+  }
 }
