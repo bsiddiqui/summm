@@ -1,0 +1,25 @@
+{
+  "name": "summm",
+  "version": "0.1.1",
+  "description": "Calculate the sum of two numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsiddiqui/round-sum.git"
+  },
+  "keywords": [
+    "add",
+    "math",
+    "sum"
+  ],
+  "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsiddiqui/summm/issues"
+  },
+  "homepage": "https://github.com/bsiddiqui/summm#readme",
+  "dependencies": {}
+}
