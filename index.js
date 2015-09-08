@@ -1,11 +1,15 @@
 'use strict'
 
 var isNumeric = require('is-numeric')
+var argsToArray = require('args-to-array')
 
-module.exports = function summm (value1, value2) {
-  if (!isNumeric(value1) || !isNumeric(value2)) {
-    throw new Error('value1 and value2 must be a number')
-  }
-
-  return +value1 + +value2
+module.exports = function summm (numbers) {
+  numbers = Array.isArray(numbers) ? numbers : argsToArray(arguments)
+  return numbers.reduce(function (previous, next) {
+    if (!isNumeric(previous) || !isNumeric(next)) {
+      throw new Error('All values must be numbers')
+    } else {
+      return (+previous) + (+next)
+    }
+  })
 }
