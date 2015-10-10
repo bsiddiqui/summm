@@ -1,6 +1,6 @@
 'use strict'
 
-var isNumeric = require('is-numeric')
+var isNumeric = require('isnumeric')
 var argsToArray = require('args-to-array')
 
 module.exports = function sum (numbers) {
