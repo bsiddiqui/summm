@@ -1,6 +1,6 @@
 {
   "name": "summm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safely get the sum of numbers",
   "main": "index.js",
   "scripts": {
